@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import CommentList from './chap5/CommentList';
+import CommentList from './chap6/NotificationList';
 
 
 ReactDOM.render(
