@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Library from './chap3/Library';
+import CommentList from './chap5/CommentList';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Library />
+    <CommentList />
   </React.StrictMode>,
   document.getElementById('root')
 );
