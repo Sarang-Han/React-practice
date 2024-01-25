@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import CommentList from './chap6/NotificationList';
+import ConfirmButton from './chap8/ConfirmButton';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <CommentList />
+    <ConfirmButton />
   </React.StrictMode>,
   document.getElementById('root')
 );
