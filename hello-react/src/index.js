@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ProfileCard from './chap13/ProfileCard';
+import Blocks from './chap15/block';
 
 const rootNode = document.getElementById('root');
 
 ReactDOM.createRoot(rootNode).render(
   <React.StrictMode>
-    <ProfileCard />
+    <Blocks />
   </React.StrictMode>,
 );
 
